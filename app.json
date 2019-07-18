@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Potluck Driver",
+    "slug": "potluck-driver",
+    "privacy": "unlisted",
+    "sdkVersion": "33.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.potluckmarket.Driver",
+      "buildNumber": "1.0.2",
+      "icon": "./assets/icon.png",
+      "isTabletOnly": false,
+      "usesIcloudStorage": false,
+      "splash": {
+        "backgroundColor": "#222B45",
+        "resizeMode": "cover",
+        "image": "./assets/splash.png"
+      },
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Potluck Driver needs to track your location in order to update customers on your location when delivering their order.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Potluck Driver needs to track your location in order to update customers on your location when delivering their order.",
+        "NSLocationAlwaysUsageDescription": "Potluck Driver needs to track your location in order to update customers on your location when delivering their order.",
+        "UIBackgroundModes": ["location"]
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    }
+  }
+}

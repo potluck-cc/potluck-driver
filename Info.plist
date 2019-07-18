@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Potluck Driver needs to track your location in order to update customers on your location when delivering their order.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Potluck Driver needs to track your location in order to update customers on your location when delivering their order.",
+        "NSLocationAlwaysUsageDescription": "Potluck Driver needs to track your location in order to update customers on your location when delivering their order.",
+        "UIBackgroundModes": [
+          "location",
+        ]
+      }
+    }
+  }
+}
